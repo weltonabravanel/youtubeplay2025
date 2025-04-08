@@ -70,17 +70,17 @@ function PlayingVideo() {
                   </div>
                 </div>
                 <span className="mt-1 text-center bg-red-500 px-3 pt-2 rounded-full text-white cursor-pointer hover:bg-red-700 duration-200 ">
-                  Subscribe
+                  Inscreva-se
                 </span>
               </div>
             </div>
             <div className="flex mt-4 md:mt-0">
               <div className="flex items-center justify-center h-11 px-6 rounded-3xl bg-white/[0.15]">
                 <AiOutlineLike className="text-xl mr-2" />
-                {`${abbreviateNumber(video?.stats?.likes, 2)} Likes`}
+                {`${abbreviateNumber(video?.stats?.likes, 2)} Curtidas`}
               </div>
               <div className="flex items-center justify-center h-11 px-6 rounded-3xl bg-white/[0.15] ml-4">
-                {`${abbreviateNumber(video?.stats?.views, 2)} Views`}
+                {`${abbreviateNumber(video?.stats?.views, 2)} Visualizações`}
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ function PlayingVideo() {
             {video?.description}
           </div>
           <div className="flex gap-x-6 font-semibold rounded-xl mt-4 text-xl">
-            {video?.stats?.comments} <p>Comments</p>
+            {video?.stats?.comments} <p>Comentários</p>
           </div>
         </div>
         <div className="flex flex-col px-4 py-6 h-[calc(100vh-4.625rem)] overflow-y-scroll overflow-x-hidden lg:w-[350px] xl:w-[400px]">
