@@ -2,24 +2,24 @@ import React from "react";
 
 function ListItems() {
   const categories = [
-    "All",
-    "Music",
+    "Tudo",
+    "Música",
     "React routers",
-    "Computer programming",
-    "Reverberation",
-    "Movie musicals",
-    "India national cricket team",
-    "News",
+    "Computador",
+    "Beleza",
+    "Filmes",
+    "Times",
+    "Notícias",
     "Mixes",
     "1990s",
-    "Telugu cinema",
-    "Live",
-    "Dramedy",
-    "Dubbing",
-    "Indian soap opera",
+    "Cinema",
+    "Ao vivo",
+    "Drama",
+    "Carros",
+    "Indiano",
     "Cricket",
-    "Football",
-    "Learn Coding",
+    "Futebol",
+    "Codigo",
   ];
   return (
     <div className="flex overflow-x-scroll hide-scroll-bar px-4">
