@@ -29,11 +29,12 @@ function Sidebar() {
       id: 1,
       name: "Home",
       icon: <GoHome />,
-    },
+          },
     {
       id: 2,
       name: "Shorts",
       icon: <SiYoutubeshorts />,
+       type: 'category' 
     },
     {
       id: 3,
