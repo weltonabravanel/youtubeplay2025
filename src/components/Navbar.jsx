@@ -32,10 +32,10 @@ function Navbar() {
         <img src={logo} alt="" className="w-28 cursor-pointer" />
       </div>
       <div className="flex w-[35%] items-center ">
-        <div className="w-[100%] px-4 py-2 border-[1px] border-gray-400 rounded-l-full">
+        <div className="w-[100%] px-3 py-2 border-[1px] border-gray-400 rounded-l-full">
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Buscar"
             className=" outline-none"
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyUp={searchQueryHandler}

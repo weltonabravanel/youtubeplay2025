@@ -29,7 +29,7 @@ function Sidebar() {
       id: 1,
       name: "Home",
       icon: <GoHome />,
-          },
+    },
     {
       id: 2,
       name: "Shorts",
@@ -37,19 +37,19 @@ function Sidebar() {
     },
     {
       id: 3,
-      name: "Subscriptions",
+      name: "Inscrições",
       icon: <MdOutlineSubscriptions />,
     },
   ];
   const sidebarItems2 = [
     {
       id: 1,
-      name: "Your Channel",
+      name: "Meu Canal",
       icon: <PiUserSquareThin />,
     },
     {
       id: 2,
-      name: "History",
+      name: "Historia",
       icon: <MdHistory />,
     },
     {
@@ -59,17 +59,17 @@ function Sidebar() {
     },
     {
       id: 4,
-      name: "Your Videos",
+      name: "Meus Videos",
       icon: <BiVideo />,
     },
     {
       id: 5,
-      name: "Watch later",
+      name: "Assistir Depois",
       icon: <MdOutlineWatchLater />,
     },
     {
       id: 6,
-      name: "Liked videos",
+      name: "Videos Curtidos",
       icon: <AiOutlineLike />,
     },
   ];
@@ -86,42 +86,42 @@ function Sidebar() {
     },
     {
       id: 3,
-      name: "Music",
+      name: "Música",
       icon: <SiYoutubemusic />,
     },
     {
       id: 4,
-      name: "Films",
+      name: "Filmes",
       icon: <PiFilmSlateLight />,
     },
     {
       id: 5,
-      name: "Live",
+      name: "Ao vivo",
       icon: <CgMediaLive />,
     },
     {
       id: 6,
-      name: "Gaming",
+      name: "Jogos",
       icon: <IoGameControllerOutline />,
     },
     {
       id: 7,
-      name: "News",
+      name: "Notícias",
       icon: <FaRegNewspaper />,
     },
     {
       id: 8,
-      name: "Sport",
+      name: "Esporte",
       icon: <TfiCup />,
     },
     {
       id: 9,
-      name: "Courses",
+      name: "Cursos",
       icon: <SiStylelint />,
     },
     {
       id: 10,
-      name: "Fashion & beauty",
+      name: "Moda & Beleza",
       icon: <PiLightbulbLight />,
     },
     {
@@ -193,7 +193,7 @@ function Sidebar() {
       {/* Explore */}
       <div className="mt-4 space-y-3 items-center">
         <div className="items-center space-x-2">
-          <h1 className=" font-semibold">Explore</h1>
+          <h1 className=" font-semibold">Explorar</h1>
         </div>
         {sidebarItems3.map((item) => {
           return (
