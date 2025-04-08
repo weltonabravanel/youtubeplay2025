@@ -34,7 +34,6 @@ function Sidebar() {
       id: 2,
       name: "Shorts",
       icon: <SiYoutubeshorts />,
-       type: 'category' 
     },
     {
       id: 3,
